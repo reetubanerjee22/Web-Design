@@ -1,0 +1,485 @@
+/* Fonts */
+* {
+    font-family: 'Dosis', sans-serif;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    margin: 0;
+}
+.uni-padding {
+    padding: 0 7%;
+}
+
+/* TopBar */
+#topbar {
+    background-color:gray;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#social-icon {
+    float: right;
+}
+#tollfree {
+    float: left;
+    color: white;
+    margin: 0;
+    margin-top: 5px;
+}
+.fab {
+    background-color: white;
+    color: gray;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+/* Logo Bar */
+#logobar {
+    background-image: url(../Images/Header\ background.jpg);
+    background-size: cover;
+    overflow: auto;
+}
+
+  #logobar img {
+      width: 200px;
+      margin: 25px 0px;
+      float: left;
+  }
+
+  #heading {
+      float: right;
+      style="float:right";
+      font-weight: bold;
+      font-family: 'Baloo Tammudu 2', cursive;
+      font-size: 80px;
+      padding-top: 50px;
+      text-shadow: 5px 5px brown;
+    
+  }
+
+  /* Navigation Bar */
+  #navbar {
+      background-color: brown
+  }
+  #navbar ul li {
+      display: inline-block;
+      padding: 20px 0px;
+      padding-right: 160px;
+  }
+  #navbar ul {
+      margin:0;
+      padding: 0;
+  }
+  #navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+  }
+
+  /* Poster */
+  #poster {
+      background-image: url(../images/Background\ Image.jpg);
+      height: 500px;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content:top;
+      align-items: top;
+      color:black;
+      font-weight:bold;
+      font-family: 'Viaoda Libre', cursive;
+      font-size: 30px;
+  }
+  
+  /* What is Danceslay */
+  #introduction {
+      background-image: url(../Images/Intro\ image.jpg);
+      background-size: cover;
+      overflow: auto;
+  }
+  #introduction h2 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+  #introduction img {
+     float: left;
+  }
+  #introduction p {
+      color: green;
+      font-weight: 800;
+      width: 60%;
+      float: right;
+      font-size: 35px;
+  }
+  /* Footer */
+  #imp-link {
+      background-color: purple;
+      color: white;
+      overflow: auto;
+  }
+  .div33 {
+      width: 33.33%;
+      float: left;
+      padding: 25px 50px;
+      box-sizing: border-box;
+  } 
+  .div33 h3 {
+      text-decoration: underline;
+      color: black;
+  }
+  #footer-menu {
+      list-style-type: none;
+      padding: 0;
+  } 
+  #footer-menu li{
+   padding-bottom: 10px;
+  }
+  #footer-menu li a {
+    text-decoration: none;
+    color: white;
+  }
+  #footer-menu-container {
+      padding-left: 100px;
+  }
+  #copyright {
+      background-color: gray;
+      text-align: center;
+      padding: 10px;
+  }
+
+  /* About */
+  #content {
+      background-image: url(../Images/About\ Image.jpg);
+      background-size: cover;
+      margin-top: 0;
+      overflow: auto;
+  }
+  #content h3{
+      text-align: center;
+      text-decoration: underline;
+      font-weight: bolder;
+      font-size: 50px;
+      color: ivory;
+      margin-top: 0;
+  }
+  #reetu img {
+    float: left;
+  }
+  #reetu p {
+     color: red;
+     font-family: 'Baloo Tammudu 2', cursive;
+     font-size: 25px;
+     float: right;
+     width: 70%;
+  }
+  #rashmi img {
+    float: left;
+  }
+  #rashmi p {
+     color: red;
+     font-family: 'Baloo Tammudu 2', cursive;
+     font-size: 25px;
+     float: right;
+     width: 70%;
+  }
+  #shrutirupa img {
+    float: left;
+  }
+  #shrutirupa p {
+     color: red;
+     font-family: 'Baloo Tammudu 2', cursive;
+     font-size: 25px;
+     float: right;
+     width: 70%;
+  }
+
+  /* Form */
+  #form {
+      background-color: rosybrown;
+  }
+  #form h4 {
+      text-align: center;
+      margin-top: 0;
+      font-size: 30px;
+  }
+  #basic {
+      font-size: 20px;
+      font-weight: bold;
+  }
+  #other {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+#basic label {
+    padding: 20px;
+}
+#other label {
+    padding: 20px;
+}
+
+/* contact */
+#contact {
+    background-image: url(..//Images/Contact\ background.jpg);
+}
+#contact h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 0;
+}
+#dance {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.div3 {
+      width: 33.33%;
+      float: left;
+      padding: 25px 50px;
+      box-sizing: border-box;
+}
+.div3 p {
+    font-size: 20;
+    font-weight: bold;
+}
+.div3 a {
+    font-size: 20;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+#suggestion p {
+    text-align: center;
+    font-size: 30px;
+}
+#sug {
+    text-align: center;
+}
+    
+/* Gallery */
+#gallery {
+    background-image: url(..//Images/gallery\ background.jpg);
+    background-size: cover;
+}
+#gallery h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.divvv {
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    background-image: url(../Images/gallery\ background.jpg);
+    background-size: cover;
+}
+.divvv video {
+    margin: 0;
+}
+
+/* Responsive IPad */
+
+#navbar ul #mobilecross, #mobile-bar {
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    #heading {
+        float: right;
+        style="float: right";
+        font-weight: bold;
+        font-family: 'Baloo Tammudu 2', cursive;
+        font-size: 50px;
+        padding-top: 50px;
+        text-shadow: 5px 5px brown;
+        text-align: center;
+    }
+    #navbar ul li {
+        display: inline-block;
+        padding: 20px 0px;
+        padding-right: 50px;
+    }
+    #introduction p {
+        color: green;
+        font-weight: 800;
+        font-size: 35px;
+        width: 100%;
+    }
+    #other label {
+        padding: 5px;
+    }
+    #v1 {
+        width: 100%;
+        height: auto;
+    }
+    #v2 {
+     width: 100%;
+     height: auto;
+ }
+    #v3 {
+     width: 100%;
+     height: auto;
+ }
+ #c1 {
+    width: 100%;
+    text-align: center;
+}
+#c2 {
+    width: 100%;
+    text-align: center;
+}
+#c3 {
+    width: 100%;
+    text-align: center;
+}
+#contact a {
+    text-align: center;
+}
+.div33 {
+    width: 100%;
+}
+}
+    /* Reasponsive Mobile */
+    @media only screen and (max-width:500px) {
+        #navbar {
+            background-color: indianred;
+            position: absolute;
+            top: 0px;
+            height: 100vh;
+            width: 280px;
+            padding: 0px;
+        }
+        #navbar ul li {
+           display: block;
+           padding: 18px 0px;
+           padding-right: 35px;
+           border-bottom: 1px solid rgb(204, 201, 201);
+           padding-left: 20px;
+        }
+        #mobilecross {
+            text-align: right;
+        }
+        .fa-times-circle {
+            font-size: 25px;
+        }
+        #navbar {
+            left: -280px;
+            transition: all 0.5s ease;
+        }
+        #mobile-bar {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+        }
+        #navbar ul #mobilecross, #mobile-bar {
+            display: block;
+        }
+
+        #poster {
+            font-size: 18px;
+        }
+        #introduction h2 {
+            font-family: 'Baloo Tammudu 2', cursive;
+            font-size: 30px;
+            text-align: center;
+          }
+          #introduction img {
+             float: left;
+             width: 300px;
+             height: 200px;
+             justify-content: middle;
+          }
+          #introduction p {
+              color: green;
+              font-weight: 800;
+              width: 100%;
+              float: right;
+              font-size: 20px;
+          }
+          #reetu img {
+            float: left;
+            width: 300px;
+            height: 300px;
+          }
+          #reetu p {
+             color: red;
+             font-family: 'Baloo Tammudu 2', cursive;
+             font-size: 20px;
+             float: right;
+             width: 100%;
+          }
+          #rashmi img {
+            float: left;
+            width: 300px;
+            height: 300px;
+          }
+          #rashmi p {
+             color: red;
+             font-family: 'Baloo Tammudu 2', cursive;
+             font-size: 20px;
+             float: right;
+             width: 100%;
+          }
+          #shrutirupa img {
+            float: left;
+            width: 300px;
+            height: 300px;
+          }
+          #shrutirupa p {
+             color: red;
+             font-family: 'Baloo Tammudu 2', cursive;
+             font-size: 20px;
+             float: right;
+             width: 100%;
+          }
+          #other label {
+            padding: 15px;
+          }
+       #v1 {
+           width: 100%;
+           height: auto;
+       }
+       #v2 {
+        width: 100%;
+        height: auto;
+    }
+       #v3 {
+        width: 100%;
+        height: auto;
+    }
+    #c1 {
+        width: 100%;
+        text-align: center;
+    }
+    #c2 {
+        width: 100%;
+        text-align: center;
+    }
+    #c3 {
+        width: 100%;
+        text-align: center;
+    }
+    #contact a {
+        text-align: center;
+    }
+    #sug textarea {
+        height: 150;
+        width: 50;
+        padding: 50px 50px;
+    }
+    .div33 {
+        width: 100%;
+    }
+}
